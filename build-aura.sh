@@ -1630,6 +1630,6 @@ fi
 
 git push origin main || true
 
-echo "AURA v2 platform scaffold created. Starting Next.js web server on port 3000..."
+echo "AURA v2 platform scaffold created. Starting Next.js web server on port 5000..."
 cd apps/web
-npm run dev -- --hostname 0.0.0.0 --port 3000
+npm run dev -- --hostname 0.0.0.0 --port 5000
