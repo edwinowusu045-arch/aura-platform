@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["dom", "dom.iterable", "es2020"],
+    "jsx": "preserve",
+    "allowJs": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@aura/core": ["packages/core/src"],
+      "@aura/ui": ["packages/ui/src"],
+      "@aura/api": ["packages/api/src"]
+    },
+    "incremental": true,
+    "types": ["node"]
+  },
+  "include": ["apps/**/*", "packages/**/*"],
+  "exclude": ["node_modules"]
+}

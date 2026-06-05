@@ -1,0 +1,15 @@
+{
+  "name": "aura-platform",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/mobile",
+    "packages/core",
+    "packages/ui",
+    "packages/api"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:mobile": "npm --workspace apps/mobile run start"
+  }
+}
